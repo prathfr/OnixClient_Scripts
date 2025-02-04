@@ -567,6 +567,16 @@
       "lastUpdated": "2024-03-16T13:28:53.549Z"
     },
     {
+      "name": "Hive Chat Friend List",
+      "description": "Shows your friends in chat",
+      "file": "HiveChatFriendList.lua",
+      "url": "https://raw.githubusercontent.com/OnixClient-Scripts/OnixClient_Scripts/master/Modules/HiveChatFriendList.lua",
+      "libs": [],
+      "commands": [],
+      "hash": "44309bdd2cdf30905f58780ccf380906",
+      "lastUpdated": "2024-12-01T02:43:49.641Z"
+    },
+    {
       "name": "Hive Chat Replacer",
       "description": "Replaces Hive bloat chat messages with awesome Onix Client messages.",
       "file": "HiveChatReplacer.lua",
@@ -595,6 +605,16 @@
       "commands": [],
       "hash": "44af5a7e7a064e9426566b19680f0b92",
       "lastUpdated": "2024-10-10T22:06:38.039Z"
+    },
+    {
+      "name": "Hive Quick Mount",
+      "description": "Hive Quick Mount",
+      "file": "HiveQuickMount.lua",
+      "url": "https://raw.githubusercontent.com/OnixClient-Scripts/OnixClient_Scripts/master/Modules/HiveQuickMount.lua",
+      "libs": [],
+      "commands": [],
+      "hash": "7efc64bd3bc57166ea1426753e2d6f62",
+      "lastUpdated": "2024-12-01T02:43:49.641Z"
     },
     {
       "name": "Hive Statistic Checker",
@@ -915,6 +935,20 @@
       "lastUpdated": "2024-03-17T01:28:29.443Z"
     },
     {
+      "name": "Modern Commands Examples",
+      "description": "A mod containing example commands for the new command system",
+      "file": "ModernCommandsExamples.lua",
+      "url": "https://raw.githubusercontent.com/OnixClient-Scripts/OnixClient_Scripts/master/Modules/ModernCommandsExamples.lua",
+      "libs": [],
+      "commands": [
+        "exampleseparated",
+        "exampleseparated2",
+        "exampleseparated3"
+      ],
+      "hash": "e6da52b3fb6ce5bd19c536b89b9f9121",
+      "lastUpdated": "2024-12-02T04:04:00.792Z"
+    },
+    {
       "name": "Movable Action Bar",
       "description": "Allows you to move the action bar around.",
       "file": "MovableActionBar.lua",
@@ -946,17 +980,13 @@
     },
     {
       "name": "NGTools",
-      "description": "Improvements for the Nethergames server. By Lioncat6 • Version 1.0.3",
+      "description": "Improvements for the Nethergames server. By Lioncat6 • Version 1.0.5",
       "file": "NGTools.lua",
       "url": "https://raw.githubusercontent.com/OnixClient-Scripts/OnixClient_Scripts/master/Modules/NGTools.lua",
       "libs": [
         "DependentBoolean"
       ],
       "commands": [
-        "ngtools",
-        "ng",
-        "ngtools",
-        "ng",
         "serverid",
         "uname",
         "mute",
@@ -971,8 +1001,8 @@
         "reply",
         "r"
       ],
-      "hash": "c210b1896877fdd4873e2ae348f6634b",
-      "lastUpdated": "2024-07-09T21:30:41.548Z"
+      "hash": "ddb401bca3db932851e1a88575f51d18",
+      "lastUpdated": "2024-12-07T01:56:52.592Z"
     },
     {
       "name": "Offhand slot display",
@@ -1265,6 +1295,21 @@
       "commands": [],
       "hash": "5cfdc85d49d0f978f7bc2c24964a1a30",
       "lastUpdated": "2024-08-12T20:31:21.737Z"
+    },
+    {
+      "name": "Voxeliser",
+      "description": "Has the command 'load model' which takes in a .obj file with one texture file (no materials) and places it in minecraft",
+      "file": "voxelize.lua",
+      "url": "https://raw.githubusercontent.com/OnixClient-Scripts/OnixClient_Scripts/master/Modules/voxelize.lua",
+      "libs": [
+        "BlockRGB",
+        "geometryLib"
+      ],
+      "commands": [
+        "loadModel"
+      ],
+      "hash": "ecffa597daaac10c2524592ca05dce52",
+      "lastUpdated": "2024-12-20T23:18:50.497Z"
     },
     {
       "name": "Waypoint Hotkey",
@@ -1651,6 +1696,13 @@
       "lastUpdated": "2023-01-15T12:55:52.000Z"
     },
     {
+      "name": "geometryLib",
+      "file": "geometryLib.lua",
+      "url": "https://raw.githubusercontent.com/OnixClient-Scripts/OnixClient_Scripts/master/Libs/geometryLib.lua",
+      "hash": "de465d0e5f3dd0e17134516df00e8bd0",
+      "lastUpdated": "2024-12-20T23:18:50.505Z"
+    },
+    {
       "name": "gfx2Colors",
       "file": "gfx2Colors.lua",
       "url": "https://raw.githubusercontent.com/OnixClient-Scripts/OnixClient_Scripts/master/Libs/gfx2Colors.lua",
@@ -1853,6 +1905,12 @@
         "lastUpdated": "2024-05-26T02:48:16.392Z"
       },
       {
+        "file": "commands.lua",
+        "url": "https://raw.githubusercontent.com/OnixClient-Scripts/OnixClient_Scripts/master/AutoComplete/library/commands.lua",
+        "hash": "0174b0038855e66b1a22500d4e4b35bd",
+        "lastUpdated": "2024-12-02T03:58:56.368Z"
+      },
+      {
         "file": "dimension.lua",
         "url": "https://raw.githubusercontent.com/OnixClient-Scripts/OnixClient_Scripts/master/AutoComplete/library/dimension.lua",
         "hash": "d7920a68b630582bdd8f9dc4565ec502",
@@ -1885,8 +1943,8 @@
       {
         "file": "globals.lua",
         "url": "https://raw.githubusercontent.com/OnixClient-Scripts/OnixClient_Scripts/master/AutoComplete/library/globals.lua",
-        "hash": "1c0811f72f2228630de386ae6d12fd0d",
-        "lastUpdated": "2024-04-26T16:14:13.393Z"
+        "hash": "877b24ad6971a907e4134146f670007a",
+        "lastUpdated": "2024-12-02T03:38:50.035Z"
       },
       {
         "file": "gui.lua",
